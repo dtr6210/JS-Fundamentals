@@ -20,8 +20,7 @@ const sydney = {
 // part a:
 
 for (let property in sydney) {
-  console.log("property: " + property);
-  console.log("value: " + sydney[property]);
+  console.log('sydney: ', property, sydney[property])
 }
 
 // part b:
@@ -36,6 +35,5 @@ const batonrouge = {
 };
 
 for (let property in batonrouge) {
-  console.log("property: " + property);
-  console.log("value: " + batonrouge[property]);
+  console.log('Baton Rouge: ', property, batonrouge[property] )
 }
